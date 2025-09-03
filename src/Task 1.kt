@@ -2,7 +2,7 @@ fun main() {
     val str: String = readln()
     val number: Int = str.toInt()
 
-    if (number / 10 != 0) {
+    if (number / 100 != 0) {
         print("$number - число трехзначное")
     }
     else if (number % 100 / 10 != 0) {
